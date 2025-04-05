@@ -1115,10 +1115,9 @@ color: white;
     }
 
     header nav ul.show {
-        left: 0%;
-        top: -20px;
-
-
+        left: 0;
+        top: 10px;
+        position: fixed; 
     }
 
     .burger {
