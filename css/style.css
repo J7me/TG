@@ -40,7 +40,7 @@ body {
 body::before {
     display: block;
     content: '';
-    width: 1523px;
+    width: 100%;
     height: 1298px;
     background-image: url(../img/q2.png);
     background-size: cover;
@@ -292,23 +292,27 @@ main .show {
 
 .startNow:hover {
     background-color: #7142d7;
-opacity: 0.8;
+    opacity: 0.8;
     border: 1px solid white;
     cursor: pointer;
 }
-.bt:hover { 
-    opacity: 0.8; 
+
+.bt:hover {
+    opacity: 0.8;
     cursor: pointer;
 }
+
 .TGbt:hover {
     opacity: 0.8;
     cursor: pointer;
 }
-.Mess:hover{
+
+.Mess:hover {
     opacity: 0.8;
-        cursor: pointer;
-        background-color: white;
+    cursor: pointer;
+    background-color: white;
 }
+
 .startNow span {
 
     margin-left: 60px;
@@ -316,9 +320,11 @@ opacity: 0.8;
     font-size: 15px;
     color: var(--primary_color);
 }
+
 .startNow:hover span {
-color: white;
+    color: white;
 }
+
 .startNow .bt {
     align-items: center;
     text-align: center;
@@ -743,8 +749,7 @@ color: white;
 
 .navBlock {
     display: flex;
-    max-width: 1024px;
-
+    width: 60%;
 }
 
 .nav {
@@ -867,6 +872,17 @@ color: white;
         position: absolute;
         left: -10px;
 
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        min-width: 316px;
+        max-width: 510px;
+        width: 100%;
+        gap: 37px;
+        height: 459px;
+        padding: 15px;
     }
 
     .tg {
@@ -1117,7 +1133,7 @@ color: white;
     header nav ul.show {
         left: 0;
         top: 10px;
-        position: fixed; 
+        position: fixed;
     }
 
     .burger {
@@ -1210,6 +1226,13 @@ color: white;
         justify-content: inherit;
         flex-direction: inherit;
         align-items: inherit;
+    }
+
+    .navContacts h2 {
+        font-size: 25px;
+        font-weight: 500;
+        color: var(--primary_color);
+        margin-bottom: 19px;
     }
 
 }
