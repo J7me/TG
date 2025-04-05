@@ -1261,7 +1261,7 @@ display: flex;
 
 }
 
-@media screen and (max-width: 533px) {
+@media screen and (max-width: 790px) {
     body::before {
         display: block;
         content: '';
