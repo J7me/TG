@@ -748,16 +748,20 @@ main .show {
 }
 
 .navBlock {
-    display: flex;
-    width: 60%;
+    max-width: 1424px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
 }
 
 .nav {
-    display: flex;
+display: flex
+;
     flex-direction: column;
-    min-width: 316px;
-    max-width: 510px;
-    width: 100%;
+  
+  
+    width: 712px;
     gap: 37px;
     height: 459px;
 }
@@ -791,9 +795,10 @@ main .show {
 .navContacts {
     display: flex;
     flex-direction: column;
-    min-width: 383px;
-    max-width: 510px;
-    width: 100%;
+ 
+
+    width: 712px;
+   
     height: 459px;
 
 
@@ -832,7 +837,7 @@ main .show {
     font-style: italic;
 }
 
-@media screen and (max-width: 975px) {
+@media screen and (max-width: 1175px) {
     body::before {
         display: block;
         content: '';
@@ -882,7 +887,7 @@ main .show {
         width: 100%;
         gap: 37px;
         height: 459px;
-        padding: 15px;
+
     }
 
     .tg {
@@ -937,6 +942,7 @@ main .show {
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         gap: 10px;
     }
 
@@ -1229,10 +1235,17 @@ main .show {
     }
 
     .navContacts h2 {
-        font-size: 25px;
+        font-size: 34px;
         font-weight: 500;
         color: var(--primary_color);
         margin-bottom: 19px;
+    }
+
+    .navBlock {
+display: flex;
+    justify-content: center;
+    width: 712px;
+    max-width: 100%;
     }
 
 }
