@@ -878,7 +878,18 @@ display: flex
         left: -10px;
 
     }
+    .qwerty::after {
+        display: block;
+        content: '';
+        width: 680px;
+        height: 944px;
+        background-image: none;
+        background-size: cover;
+        top: 610px;
+        position: absolute;
+        left: -10px;
 
+    }
     .nav {
         display: flex;
         flex-direction: column;
