@@ -749,18 +749,17 @@ main .show {
 
 .navBlock {
     max-width: 1424px;
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: nowrap;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .nav {
-display: flex
-;
+    display: flex;
     flex-direction: column;
-  
-  
+
+
     width: 712px;
     gap: 37px;
     height: 459px;
@@ -795,10 +794,10 @@ display: flex
 .navContacts {
     display: flex;
     flex-direction: column;
- 
+
 
     width: 712px;
-   
+
     height: 459px;
 
 
@@ -878,6 +877,7 @@ display: flex
         left: -10px;
 
     }
+
     .qwerty::after {
         display: block;
         content: '';
@@ -890,6 +890,7 @@ display: flex
         left: -10px;
 
     }
+
     .nav {
         display: flex;
         flex-direction: column;
@@ -899,6 +900,17 @@ display: flex
         gap: 37px;
         height: 459px;
 
+    }
+
+    .MessBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 816px;
+        height: 626px;
+        background: #EEF4FD;
+        gap: 18px;
     }
 
     .tg {
@@ -932,7 +944,7 @@ display: flex
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 716px;
+        width: 816px;
         background-image: url(../img/helpm.png);
         background-size: cover;
         height: 384px;
@@ -1253,10 +1265,10 @@ display: flex
     }
 
     .navBlock {
-display: flex;
-    justify-content: center;
-    width: 712px;
-    max-width: 100%;
+        display: flex;
+        justify-content: center;
+        width: 816px;
+        max-width: 100%;
     }
 
 }
